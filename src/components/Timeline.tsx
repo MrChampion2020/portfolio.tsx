@@ -170,16 +170,16 @@ const projects: Project[] = [
   {
     id: 2,
     title: 'Dating App and Web',
-    description: 'Developed a material UI and Tailwind CSS-powered mobile and web applications with real-time chats and payment systems.',
+    description: 'Developed mobile and web applications with real-time chats and payment systems.',
     date: '2023-05-01',
-    tech: ['React', 'Firebase', 'React Native', 'Node.js', 'Stripe', 'Websocket']
+    tech: ['Firebase', 'expo', 'Node.js', 'Stripe']
   },
   {
     id: 3,
     title: 'Banking Solution',
     description: 'Created a banking solution web-based application using React and Node.js.',
     date: '2024-06-10',
-    tech: ['React', 'API Integration', 'Cards', 'Transfers']
+    tech: ['Swift', 'Node Js', 'Verve', 'Transfers']
   }
 ];
 
@@ -209,7 +209,7 @@ const experience: Experience[] = [
     company: 'Runorx',
     position: 'Fullstack Developer',
     date: '2022-06-01 - 2024-12-31',
-    description: 'Built full-stack e-commerce, banking, solution based, industry fledged platforms using React, Node.js, and MongoDB.'
+    description: 'Built full-stack e-commerce banking platforms using React, Node.js, and MongoDB.'
   }
 ];
 
@@ -251,7 +251,7 @@ export function Timeline() {
 
   return (
     <section className="p-4">
-      <nav className="flex border-b border-gray-800 mb-4 overflow-x-auto lg:w-[95%] w-[95%] mx-auto">
+      <nav className="flex border-b border-gray-800 mb-4 overflow-x-auto lg:w-[95%] w-[90%] mx-auto">
         <button
           className={`px-4 py-2 font-semibold border-b-2 ${
             activeTab === 'projects' ? 'border-blue-500' : 'border-transparent'
